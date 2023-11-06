@@ -53,15 +53,7 @@ body {
 .shadow-full {
     box-shadow: 0 0 32px rgba(0, 0, 0, 0.2);
 }
-.navbar-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    background-color: #fff; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
+
 nav a:hover {
     border-bottom: 2px solid var(--main-blue);
 }
