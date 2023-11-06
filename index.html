@@ -15,38 +15,36 @@
 <body>
 
     <!-- Navigation Section  -->
-    <div class="navbar-container">
-        <header class="lg:px-16 px-8 bg-white flex flex-wrap items-center py-4 shadow-md antialiased font-sans sticky">
-            <div class="flex-1 flex justify-between items-center">
-                <a href="index.html" class="text-3xl text-main-blue font-bold">eVTOL Innovation Inc.</a>
-            </div>
+    <header class="lg:px-16 px-8 bg-white flex flex-wrap items-center py-4 shadow-md antialiased font-sans">
+        <div class="flex-1 flex justify-between items-center">
+            <a href="index.html" class="text-3xl text-main-blue font-bold">eVTOL Innovation Inc.</a>
+        </div>
 
-            <label for="menu-toggle" class="pointer-cursor md:hidden block">
-                <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
-                    viewBox="0 0 20 20">
-                    <title>menu</title>
-                    <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
-                </svg>
-            </label>
-            <input class="hidden" type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="pointer-cursor md:hidden block">
+            <svg class="fill-current text-gray-900" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                viewBox="0 0 20 20">
+                <title>menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+            </svg>
+        </label>
+        <input class="hidden" type="checkbox" id="menu-toggle" />
 
-            <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
-                <nav>
-                    <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
-                        <li><a class="md:p-4 py-3 px-0 block" href="#about-section">About Us</a></li>
-                        <!-- <li><a class="md:p-4 py-3 px-0 block" href="#">HighLights</a></li> -->
-                        <li><a class="md:p-4 py-3 px-0 block" href="#product-section">Products</a></li>
-                        <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#contact-section">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-    </div>
+        <div class="hidden md:flex md:items-center md:w-auto w-full" id="menu">
+            <nav>
+                <ul class="md:flex items-center justify-between text-base text-gray-700 pt-4 md:pt-0">
+                    <li><a class="md:p-4 py-3 px-0 block" href="#about-section">About Us</a></li>
+                    <!-- <li><a class="md:p-4 py-3 px-0 block" href="#">HighLights</a></li> -->
+                    <li><a class="md:p-4 py-3 px-0 block" href="#product-section">Products</a></li>
+                    <li><a class="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#contact-section">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <!-- banner Section -->
 
     <main class="bg-gray">
-        <section class="section--hero relative mx-auto mt-32 sm:mt-16  ">
+        <section class="section--hero relative">
             <div class="flex mb-4 absolute top-0 left-0 h-full w-full z-1">
                 <div class=" hidden lg:block bg-main-blue section--hero__height"></div>
                 <div class="hero--image w-full bg-gray-500 section--hero__height  bg-cover relative">
@@ -223,8 +221,7 @@
                     <span class="text-indigo-600 font-bold">Products</span>
                 </h2>
                 <div class="flex mb-4 h-full w-full flex-col sm:flex-row">
-                    <div
-                        class="w-full md:w-12/12 section--p1 h-full bg-contain relative sm:bg-cover bg-no-repeat bg-center">
+                    <div class="w-full md:w-12/12 section--p1 h-full bg-contain relative sm:bg-cover bg-no-repeat bg-center">
                     </div>
                     <div class="w-full md:w-4/12 relative">
                         <div
@@ -250,9 +247,7 @@
                             <p class="text-teal-400 font-semibold text-lg">USPTO PATENT 10,076,763</p>
                         </div>
                     </div>
-                    <div
-                        class="w-full md:w-2/2 section--p2 h-full bg-contain order-1 md:order-2 bg-cover bg-no-repeat bg-center">
-                    </div>
+                    <div class="w-full md:w-2/2 section--p2 h-full bg-contain order-1 md:order-2 bg-cover bg-no-repeat bg-center"></div>
                 </div>
             </div>
         </section>
@@ -261,8 +256,7 @@
         <section class="section--products w-full py-8 sm:my-8">
             <div class="container mx-auto px-3 sm:px-4 h-full">
                 <div class="flex mb-4 h-full w-full flex-col sm:flex-row">
-                    <div
-                        class="w-full md:w-12/12 section--p3 h-full bg-contain relative bg-cover bg-no-repeat bg-center ">
+                    <div class="w-full md:w-12/12 section--p3 h-full bg-contain relative bg-cover bg-no-repeat bg-center ">
                     </div>
                     <div class="w-full md:w-4/12 relative">
                         <div
@@ -287,9 +281,7 @@
                             <p class="text-gray-700 mb-4">Hybrid - Max Useful Load 200kg</p>
                         </div>
                     </div>
-                    <div
-                        class="w-full md:w-2/2 section--p4 h-full bg-contain order-1 md:order-2 bg-cover bg-no-repeat bg-center">
-                    </div>
+                    <div class="w-full md:w-2/2 section--p4 h-full bg-contain order-1 md:order-2 bg-cover bg-no-repeat bg-center"></div>
                 </div>
             </div>
         </section>
@@ -297,8 +289,7 @@
         <section class="section--products w-full py-8 sm:my-8">
             <div class="container mx-auto px-3 sm:px-4 h-full">
                 <div class="flex mb-4 h-full w-full flex-col sm:flex-row">
-                    <div
-                        class="w-full md:w-12/12 section--p5 h-full bg-contain relative bg-cover bg-no-repeat bg-center">
+                    <div class="w-full md:w-12/12 section--p5 h-full bg-contain relative bg-cover bg-no-repeat bg-center">
                     </div>
                     <div class="w-full md:w-6/12 relative">
                         <div
@@ -324,9 +315,7 @@
                             <p class="text-teal-400 font-semibold text-lg">USPTO PATENT 10,723,449</p>
                         </div>
                     </div>
-                    <div
-                        class="w-full md:w-2/2 section--p6 h-full bg-contain order-1 md:order-2 bg-cover bg-no-repeat bg-center">
-                    </div>
+                    <div class="w-full md:w-2/2 section--p6 h-full bg-contain order-1 md:order-2 bg-cover bg-no-repeat bg-center"></div>
                 </div>
             </div>
         </section>
@@ -335,8 +324,7 @@
         <section class="section--products w-full py-8 sm:my-8">
             <div class="container mx-auto px-3 sm:px-4 h-full">
                 <div class="flex mb-4 h-full w-full flex-col sm:flex-row">
-                    <div
-                        class="w-full md:w-12/12 section--p7 h-full bg-contain relative bg-cover bg-no-repeat bg-center">
+                    <div class="w-full md:w-12/12 section--p7 h-full bg-contain relative bg-cover bg-no-repeat bg-center">
                     </div>
                     <div class="w-full md:w-6/12 relative">
                         <div
